@@ -44,7 +44,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
   div [ class "p-5" ] -- 全体を囲む div に少しパディングを追加
-    [ -- 元々あった "Hello World!" の表示
+    [
       div [ class "hover:bg-sky-500 mb-4 text-center text-lg" ] -- マージンと中央揃え、テキストサイズを追加
         [ text "Hello World!" ]
     , -- Counter モジュールのビューを表示
