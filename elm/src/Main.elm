@@ -51,5 +51,3 @@ view model =
       -- Counter.view は Html Counter.Msg を返すので、Html.map で Html Msg に変換する
       Html.map CounterMsg (Counter.view model)
     ]
-
--- 注記: 上記のコードは Tailwind CSS がプロジェクトに導入されていることを前提としています。
