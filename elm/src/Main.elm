@@ -13,7 +13,7 @@ main =
   Browser.sandbox { init = init, update = update, view = view }
 
 -- MODEL
--- アプリケーション全体のモデル。今回はカウンターのモデルをそのまま使う
+-- アプリケーション全体のモデル
 
 type alias Model =
   Counter.Model
