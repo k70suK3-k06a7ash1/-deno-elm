@@ -1,5 +1,7 @@
 module Main exposing (main)
 
-import Html
+import Html exposing (div)
+import Html exposing (text)
+import Html.Attributes exposing (class)
 
-main = Html.text "Hello, World!"
+main = div [ class "hover:bg-sky-500" ] [ text "Hello World!" ]
